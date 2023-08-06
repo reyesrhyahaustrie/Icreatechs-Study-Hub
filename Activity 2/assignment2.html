@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Assignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assignment2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="#" method="POST">
+        <br>
+            <label for="name"><b>Name</b></label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message"><b>Message</b></label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <div class="submit-btn-container">
+                <input type="submit" class="submit-btn" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Log In</h1>
+        <form action="#" method="POST">
+        <br>
+            <label for="username"><b>Username</b></label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="submit-btn-container">
+                <input type="submit" class="submit-btn" value="Log In">
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Icreatechs Survey Form</h1>
+        <form action="#" method="POST">
+        <br>
+            <label for="name"><b>Name</b></label>
+            <input type="text" id="name" name="name" required>
+            <label for="age"><b>Age</b></label>
+            <input type="text" id="age" name="age" required>
+        <br>
+            <label><b>Gender</b></label>
+            <label for="male"><input type="radio" id="male" name="gender" value="Male"> Male</label>
+            <label for="female"><input type="radio" id="female" name="gender" value="Female"> Female</label>
+            <label for="non-binary"><input type="radio" id="non-binary" name="gender" value="Non-binary"> Non-binary</label>
+            <label for="prefer-not-to-say"><input type="radio" id="prefer-not-to-say" name="gender" value="Prefer not to say"> Prefer not to say</label>
+        <br>
+            <label><b>Which programming languages do you know?</b></label>
+            <label for="html"><input type="checkbox" id="html" name="languages" value="HTML"> HTML</label>
+            <label for="css"><input type="checkbox" id="css" name="languages" value="CSS"> CSS</label>
+            <label for="javascript"><input type="checkbox" id="javascript" name="languages" value="JavaScript"> JavaScript</label>
+            <label for="python"><input type="checkbox" id="python" name="languages" value="Python"> Python</label>
+            <label for="r"><input type="checkbox" id="r" name="languages" value="R"> R</label>
+            <label for="csharp"><input type="checkbox" id="csharp" name="languages" value="C#"> C#</label>
+            <label for="cpp"><input type="checkbox" id="cpp" name="languages" value="C++"> C++</label>
+            <label for="sql"><input type="checkbox" id="sql" name="languages" value="SQL"> SQL</label>
+            <label for="java"><input type="checkbox" id="java" name="languages" value="Java"> Java</label>
+        <br>
+            <label for="comments"><b>Do you have questions or clarifications? Comment here</b></label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <div class="submit-btn-container">
+                <input type="submit" class="submit-btn" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
