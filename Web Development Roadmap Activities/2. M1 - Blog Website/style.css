@@ -137,11 +137,44 @@ main {
     margin-top: 5px;
 }
 
-footer {
-    font-family: 'Karla', sans-serif;
+.creative-writing.blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    margin-top: 18px;
+    margin-bottom: 24px;
 }
 
-:root {
-    --clr-primary: #007bff;
+.creative-writing.blogs h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-weight: 100;
+    color: #fc937e;
+}
+
+.creative-writing__image {
+    margin-top: 0%;
+}
+
+.creative-non-fiction.blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.creative-non-fiction.blogs h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-weight: 100;
+    color: #fc937e;
+}
+
+.creative-writing__image {
+    margin-top: 0%;
 }
