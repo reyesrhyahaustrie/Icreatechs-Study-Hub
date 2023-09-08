@@ -254,3 +254,16 @@ footer {
     font-size: 16px;
     color: #434343;
 }
+
+.footer-right {
+    text-align: right;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.footer-right p {
+    color: #434343;
+    font-size: 18px;
+    margin-right: 300px;
+    font-weight: 600;
+}
