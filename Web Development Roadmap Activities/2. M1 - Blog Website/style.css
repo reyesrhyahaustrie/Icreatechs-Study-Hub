@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #f9f9f9;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    height: 70px;
+}
+
+.navbar .logo a {
+    font-weight: 900;
+    font-size: 2.2em;
+    padding: 20px;
+    color: #434343;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu input[type="radio"] {
+    display: none;
+}
+
+.menu label {
+    color: #a2a2a2;
+    text-decoration: none;
+    padding: 20px;
+    word-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.menu input[type="radio"]:checked+label {
+    color: #606060;
+    background-color: #007bff;
+    /* Background color when clicked */
+    padding: 20px 20px;
+    /* Adjust padding for background color */
+    border-radius: 5px;
+    /* Add some border-radius for a button-like appearance */
+}
+
+.menu li a {
+    color: #434343;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 18px;
+    word-spacing: 1px;
+    transition: 0s;
+    font-size: 16px;
+    width: 72.1389px;
+    height: 39.5556px;
+}
+
+.header {
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.divider {
+    width: 95%;
+    border-top: 1px solid #afafaf;
+    margin: 18px 0;
+}
+
+main {
+    max-width: 1100px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.home {
+    flex-direction: column;
+    display: left;
+    margin-top: 18px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.home__image {
+    margin-left: 20px;
+    margin-top: 0;
+    padding: 0;
+    max-width: 50%;
+    margin-right: 1.5em;
+    float: left;
+    clear: both;
+    width: 468px;
+    height: 348px;
+}
+
+.home__greetings {
+    float: left;
+    text-align: left;
+    max-width: 1080px;
+    width: 500px;
+    height: 150px;
+    margin: 2px 2px 2px 2px;
+}
+
+.home__desc {
+    color: #434343;
+    font-weight: 600;
+    font-size: 40px;
+    vertical-align: baseline;
+    text-align: left;
+    margin-top: 5px;
+}
+
+footer {
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+:root {
+    --clr-primary: #007bff;
+}
